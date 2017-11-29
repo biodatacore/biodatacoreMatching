@@ -1,8 +1,8 @@
-Package: biodatacoreMAtching
+Package: biodatacoreMatching
 Title: Utilities for matching mzids across datasets
 Version: 0.0.0.9000
 Authors@R: person("Mir", "Henglin", email = "mir.henglin@gmail.com", role = c("aut", "cre"))
-Description: Utilities for matching mzids across datasets
+Description: Utilities for matching mzids across datasets.
 Depends: R (>= 3.4.2)
 License: MIT + file LICENSE
 Encoding: UTF-8

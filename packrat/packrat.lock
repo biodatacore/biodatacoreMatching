@@ -34,6 +34,16 @@ Version: 0.2
 Hash: e011aef1e6b2f8ff15d833f56abcf0ba
 Requires: Rcpp, bindr, plogr
 
+Package: biodatacoreUtils
+Source: github
+Version: 0.0.0.9000
+Hash: 932cd3fd1640ed7869e217889684c206
+Requires: magrittr, naturalsort, rlang, dplyr, purrr
+GithubRepo: biodatacoreUtils
+GithubUsername: biodatacore
+GithubRef: master
+GithubSha1: a266bc15b36a073d8c74c1748fc69d171c215e34
+
 Package: crayon
 Source: CRAN
 Version: 1.3.4
@@ -60,8 +70,8 @@ Package: dplyr
 Source: CRAN
 Version: 0.7.4
 Hash: 8f4e0074ac488385f084e27bf6f54d41
-Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
-    pkgconfig, plogr, rlang, tibble
+Requires: BH, R6, Rcpp, assertthat, glue, magrittr, pkgconfig, plogr,
+    rlang, bindrcpp, tibble
 
 Package: git2r
 Source: CRAN
@@ -99,6 +109,11 @@ Package: mime
 Source: CRAN
 Version: 0.5
 Hash: 463550cf44fb6f0a2359368f42eebe62
+
+Package: naturalsort
+Source: CRAN
+Version: 0.1.3
+Hash: b33a2431dd244ad98c9278d15238b51b
 
 Package: openssl
 Source: CRAN
