@@ -45,6 +45,7 @@ bdc_pick_rt_interval <- function(mzid) {
       dplyr::between(rt, 3.5, 6) ~ '3.5-6.0',
       dplyr::between(rt, 6, 6.5) ~ '6.0-6.5',
       dplyr::between(rt, 6.5, 7) ~ '6.5-7.0',
+      rt > 7                     ~ '6.5-7.0',
       TRUE ~ NA_character_
     )
 
